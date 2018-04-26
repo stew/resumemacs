@@ -1,0 +1,268 @@
+#+TITLE: Mike (stew) O'Connor
+#+LANGUAGE: en
+#+OPTIONS: toc:nil H:10 tex:t
+#+INCLUDE: personal_info.org
+#+LaTeX_CLASS: article
+#+LaTeX_HEADER: \usepackage{mycv}
+#+LaTeX_HEADER: \hypersetup{hidelinks}
+#+LaTeX_HEADER: \usepackage{enumitem}
+#+LaTeX_HEADER: \setlist{nolistsep}
+#+LaTeX_HEADER: \pagenumbering{gobble}
+#+LaTeX_CLASS_OPTIONS: [letterpaper]
+
+{{{HEADER}}}
+
+* Summary
+
+I'm dedicated to the art and craft of software engineering. I've had a
+varied range of experiences around developing software and I'm always
+looking for new ones. In my third decade of working with computers,
+I've been lucky to work on a huge variety projects. I've written C++
+for banks, I've written Perl scripts for record companies, I've run
+email servers for an African government. I've taken apart laser
+printers, I've run miles of cat-5. Now I'm interested in finding my
+next project. I need to be working with people I can learn from and
+people that can learn from me.
+
+* Work Experience
+** Sr. Principal Engineer -- Lendup
+*** July 2017 - Now
+\vspace{0.1in} 
+
+Acted as the primary liaison between multiple engineering teams and
+the product team and the legal compliance teams. Responsible for the
+crafting of most technical specifications and their approval processes
+with the wider technical forum, and legal compliance teams. Provided
+both group instruction and one on one instruction on safer programming
+techniques related to pure functional programming.
+\vspace{0.1in}
+
+Bootstrapped the Scala programming language usage in the company,
+providing an infrastructure for Scala projects to set developers up
+for easy success, providing project templates, a build system, and
+deployment recipes to setup Scala developers for success. Facillitated
+the first open-source contribution by LendUp: https://github.com/lendup/fs2-blobstore
+
+** Distinguished Engineer / Services Architect -- Verizon
+*** September 2014 - June 2017
+/Verizon Labs / Verizon Fios / OnCue/\\
+\vspace{0.1in}
+
+One of two Services Architects responsible for the design and delivery
+of a system of consisting of hundreds of software services written by
+hundreds of developers collaborating to create a video streaming
+platform to power all aspects of streaming video for Verizon,
+including phones, set-top boxes and  web browsers.
+
+\vspace{0.1in}
+
+Was responsible for crafting the strategy for moving from EC2s to
+cluster resource schedulers (mesos and nomad), moving from AWS to in
+house datacenters, while reinventing our discovery and deployment
+technology and modernizing our development stack for new technologies
+such as containers.
+\vspace{0.1in}
+
+Initiated several security initiatives to identify areas where
+developers had poor practices leading to large numbers of security
+vulnerabilities. Started regular auditing to proactively catch these
+problems. Was able to effect changes on teams all across Verizon.
+ \vspace{0.1in}
+
+Helped in getting the first projects open-sourced in Verizon's
+history, some notable examples: 
+- https://github.com/getnelson/nelson
+- https://github.com/verizon/funnel
+- https://github.com/verizon/remotely
+
+** Senior Software Developer at Reverb Technologies 
+*** February 2013 - September 2014
+/Reverb Technologies (now Inform)/\\
+\vspace{0.1in}
+
+Lead a team of developers responsible for all of the microservices
+supporting a content discovery app for iPads / iPhones. Taught
+developers Functional Programming. Was responsible for helping
+architect solutions to scale the app to hundreds of thousands of
+customers.
+
+** Principal at Vireo, LLC
+*** November 2000 - January 2013
+\vspace{0.1in}
+
+With my partner, ran a successful consulting company that worked on a
+diverse set of projects, Some Highlights:
+- Helped design an implement a network of servers using Linux Virtual
+  Server to provide a high availability infrastructure for an credit
+  card processing system for Merchant e-Solutions.
+- Helped write a mail client in Java for komera.com.  The goal of the
+  project was to create a highly portable mail client that could be
+  used in poorly connected African communities.  Wrote custom server
+  software that enabled users of the mail application to perform
+  server side operations such as account creation and setting up
+  server side mail filtering rules.
+- Set up and maintained mail/web servers for the World Bank's projects
+  in Chad, and the President of Chad: http://presidence-tchad.org, http://ccsrp-tchad.org,
+- Created a system for the creation and delivery of cell phone
+  ringtones which produced and delivered over 50,000 ringtones per day.
+- Responsible for the programming, administration of many high profile
+  fashion oriented e-commerce sites, some notable examples:
+  http://jonathanadler.com http://verawang.com http://lanvin.com http://vmagazine.com 
+- Authored software used to streamline the collection of data for
+  filling out and electronically filing Medicaid / Medicare
+  applications with the NYC government. Automated the deployment of
+  servers to run the application in a HIPAA complaint datacenter.
+  
+** VP of Engineering at KIWI Consulting
+*** 1999 - 2000
+\vspace{0.1in}
+
+KIWI Consulting was a consulting firm specializing in E-Commerce web
+development using Java technologies to create highly scalable,
+cross-platform applications.
+\vspace{0.1in}
+
+Co-designer and co-developer of an application framework for the
+development of three-tiered Java applications with a backend providing
+multiple database systems support including Oracle, SQLServer, and
+Postgres, used to rapidly develop e-commerce web sites. This framework
+became the basis for all subsequent development projects at KIWI.
+\vspace{0.1in}
+
+Project Manger in the development of an E-Commerce solution for Fila
+Sportswear. Managed a team of developers. Was the primary client
+interface. The site is being deployed using the development
+framework described above.
+
+\vspace{0.1in}
+Was responsible for the design and development of an online Business
+to Business dynamic negotiation system. The system supported real-time
+auctions and reverse auctions, that could be single- or
+multi-variable. The client software was written using Java applets,
+and DHTML. It featured real-time updating and chatting capabilities
+(pre-ajax). 
+\vspace{0.1in}
+
+Was responsible for all Makefile programming / configuration
+management for KIWI. This was accomplished using gmake, bash shell
+scripting, and Perl.
+
+\vspace{0.1in}
+Was solely responsible for the administration of all servers, running
+Linux, Windows NT, Oracle, SQLServer, Apache, NFS, FTP. Was
+responsible for all networking, including a T1, a WiFi network and
+Ethernet network.
+
+** Software Engineer at Merrill Lynch
+*** 1997 To 1999
+\vspace{0.1in}
+
+Member of a team responsible for:
+- Researching emerging software technologies in the area of distributed computing,
+- Developing application infrastructure,
+- providing consulting to other teams at Merrill Lynch,
+- Evaluating software developed by other teams at Merrill Lynch.
+
+\vspace{0.1in}
+Achievements include:
+- Designed and implemented an administrative tool for the Microsoft Message Queuing System (MSMQ).
+- Designed and implemented software to manage components running under the Microsoft Transaction Server (MTS).
+- Created a reusable component library for creating Microsoft Management Console (MMC) SnapIns.
+- Wrote a reusable component library for MSMQ running under MTS.
+- Actively participated in beta programs for MSMQ 1.0, MTS 1.1, 2.0, Windows NT Enterprise Server, Windows NT Server 5.0, MMC, Microsoft Clustering (Wolfpack) 1.0.
+- Responsible for system administration of 8 NT Servers used for beta testing Microsoft pre-release products.
+
+** Software Engineer at Logic Works, 	
+*** April 1996 to May 1997
+\vspace{0.1in}
+
+Added enhancements to a Business Process Re-engineering modeling tool,
+BPwin, including an ODBC interface to a third-party simulation tool,
+BPSimulator, and added support for IDEF3 workflow modeling. Was the
+lead developer for a new release of BPwin. Converted the application's
+16 bit code to be 16/32 bit compatible. Wrote software to convert the
+application to a multi-user repository, ModelMart, shared with another
+software product, the ERwin data-modeling tool
+
+** Contractor at First Data Resources, 
+*** November 1995 to March 1996
+\vspace{0.1in}
+
+Worked as a member of the Credit Application team for this large
+credit card software provider. Personally wrote an OCX as a front-end
+for viewing and updating the fraud databases. Ported 16 bit Windows
+code to 32 bit for Windows 95/NT for a large credit card processing
+application.
+
+** Computer Programmer at Micro Logic Corp
+*** October 1994 to November 1995
+/http://miclog.com/ /\\
+\vspace{0.1in}
+
+Worked on a team of four developers creating a commercially available
+Personal Information Management software package called
+InfoSelect. The environment was Windows 3.x, Windows 95, and Windows
+NT, using Visual C++ 1.x and 2.x with Microsoft Foundation Classes ver
+2.5 & 3.0. Personal responsibilities included the design and coding of
+the database engine, all import and export functionality, and in-house
+programmer utilities. Wrote a version control and source code
+integration utility. Converted the 16-bit code base to be portable
+between the 16-bit and 32-bit Windows platforms. Wrote a MAPI
+Messaging Service Provider and made the product MAPI enabled using OLE
+interfaces. Also performed maintenance and enhancements to the
+in-house Order Entry and Distribution system written in C++ using the
+CodeBase class library.
+
+** PC Support Technician at Rodale Press, INC
+*** 1994
+/http://rodaleinc.com/\\
+\vspace{0.1in}
+Provided end-user/PC help desk support and technical troubleshooting
+for 1,000 PC workstations on a Novell network. Performed hardware and
+software installations and upgrades.
+** Programmer, Network Administration at Plus Marketing
+
+* Open-Source Experience
+** Summary
+Stew has been a contributor to open source projects for decades, many
+projects can be found on github or
+https://sourceforge.net/u/stewatvireo. I've highlighted some of the more
+notable projects below.
+
+** Typelevel 
+*** 2015 to Present
+/http://typelevel.org/\\
+
+The Typelevel project aims to foster a welcoming and friendly group
+that helps foster type driven functional programming in Scala. Stew
+was one of the founders of the typlevel project. The most widely
+known software from typelevel is "Cats", a library for functional
+programming in Scala with roots in category theory. Stew is one of the
+most prominent contributors to Cats, and has presented the library at
+multiple Scala / FP Conferences
+
+- https://github.com/typelevel/cats/graphs/contributors
+- https://www.youtube.com/watch?v=AAMncMqpOds
+
+
+** Debian Developer / FTP Wizard
+*** 2006 to Present
+/http://debian.org/\\
+Maintained many packages for the Debian GNU/Linux distribution. Worked
+on the "FTP" team which is responsible for running the Debian package
+archive (which powers apt-get). Helped maintain the software running
+the archive. Helped gate the new package queue to manually inspect new
+software proposed to be included in Debian for licensing compatibility
+and adherence to Debian policy.
+
+- https://www.debian.org/intro/organization (search for O'Connor)
+- https://lists.debian.org/debian-newmaint/2007/12/msg00039.html
+- You can probably find me on any Debian / Ubuntu box:
+    find /usr/share/doc -type f | xargs zgrep -iE '(stew|mike).*(vireo|connor)'
+
+
+* Education
+** Carnegie Mellon University, Pittsburgh, PA
+** School of Computer Science
+** Sep 1990 - Dec 1993
+

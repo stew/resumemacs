@@ -1,0 +1,15 @@
+
+#+MACRO: CELL1 408.466.5060
+#+MACRO: CELL2 
+#+MACRO: CELL3 stew.vireo.org
+#+MACRO: CELL4 mikeyo@gmail.com
+#+MACRO: CELL5 
+#+MACRO: CELL6 github.com/stew
+
+#+MACRO: HEADER \resheader{ {{{CELL1}}} }{ {{{CELL2}}} }{ {{{CELL3}}} }{ {{{CELL4}}} }{ {{{CELL5}}} }{ {{{CELL6}}} }
+
+#+MACRO: SUBTITLE1 Software Architect
+#+MACRO: SUBTITLE2 
+
+#+MACRO: SUBTITLEROWS \subtitlerows{ {{{SUBTITLE1}}} }{ {{{SUBTITLE2}}} }
+
